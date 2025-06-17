@@ -5,73 +5,69 @@
 <title>O meni – Jerko Artuković</title>
 <style>
 body {
-background-color: #e0f7fa;
 font-family: Arial, sans-serif;
-margin: 20px;
-color: #333;
-}
-
-h1 {
+background-color: #f8f9fa;
+color: #212121;
+margin: 0;
+padding: 40px;
 text-align: center;
-color: #004d40;
 }
 
-.slike {
-text-align: center;
-margin: 20px 0;
-}
-
-.slike img {
-margin: 10px;
-border-radius: 8px;
-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-}
-
-.sekcija {
-padding: 15px;
-border-radius: 8px;
-margin: 20px auto;
-width: 80%;
-}
-
-.glazba {
-background-color: #fff9c4;
-}
-
-.sportovi {
-background-color: #c8e6c9;
-}
-
-ul, ol {
-margin-left: 20px;
+h1, h2 {
+margin-top: 0;
 }
 
 a {
-display: inline-block;
-margin-top: 20px;
-text-decoration: none;
-background-color: #f44336;
-color: white;
-padding: 10px 20px;
-border-radius: 5px;
+color: #1a0dab;
+text-decoration: underline;
 }
 
 a:hover {
-background-color: #d32f2f;
+color: #d32f2f;
+}
+
+.sadrzaj {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.sekcija {
+border-radius: 12px;
+padding: 20px;
+margin: 30px 0;
+}
+
+.glazba {
+background-color: #fff9c4; /* žuta */
+}
+
+.sportovi {
+background-color: #c8e6c9; /* zelena */
+}
+
+ul, ol {
+text-align: left;
+display: inline-block;
+margin-left: 0;
 }
 </style>
 </head>
 <body>
 
-<h1>O meni</h1>
+<div class="sadrzaj">
+<h1>Jerko Artuković</h1>
+<h2>O meni</h2>
 
-<div class="slike">
-<img src="slike/boks.jpg" alt="Boks" width="300">
-<img src="slike/teretana.jpg" alt="Teretana" width="300">
-</div>
+<p>
+Ovo je <strong>moja prva web stranica</strong>. Učim <em>HTML</em> i <u>uživam</u> u procesu.
+</p>
+
+<p>
+Pogledaj moj <a href="dokument.html">multimedijalni HTML dokument</a>.
+</p>
 
 <div class="sekcija glazba">
-<h2>Glazba koju slušam</h2>
+<h3>Glazba koju slušam</h3>
 <ul>
 <li>Rock</li>
 <li>Hip-hop</li>
@@ -80,16 +76,13 @@ background-color: #d32f2f;
 </div>
 
 <div class="sekcija sportovi">
-<h2>Sportovi koje volim</h2>
+<h3>Sportovi koje volim</h3>
 <ol>
 <li>Boks</li>
 <li>Nogomet</li>
 <li>Košarka</li>
 </ol>
 </div>
-
-<div style="text-align: center;">
-<a href="index.html">Natrag na početnu stranicu</a>
 </div>
 
 </body>
