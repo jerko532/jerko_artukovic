@@ -2,48 +2,71 @@
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
-<title>Jerko Artuković - Moja prva web stranica</title>
+<title>Jerko Artuković - Početna stranica</title>
 <style>
 body {
-background-color: lightblue;
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+margin: 20px;
+text-align: center;
+}
+
+h1 {
+font-size: 36px;
+}
+
+h2 {
+font-size: 24px;
+color: #333;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+nav ul li {
+margin: 0 10px;
+}
+
+nav ul li a {
+display: inline-block;
+padding: 10px 20px;
+background-color: #e57373;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+font-weight: bold;
+}
+
+nav ul li a:hover {
+background-color: #d32f2f;
+}
+
+p {
+margin-top: 30px;
+font-size: 18px;
+color: #444;
 }
 </style>
 </head>
 <body>
 
 <h1>Jerko Artuković</h1>
-<h2>Moja prva web stranica</h2>
+<h2>Kolegij Digitalni multimediji 1</h2>
 
-<!-- Navigacijska lista -->
+<p>Ja sam Jerko i dobrodošli na moje stranice. Ovdje ćete pronaći informacije o meni, mojim vježbama i videoprojektu.</p>
+
 <nav>
 <ul>
-<li><a href="https://www.google.com">Google (vanjska web stranica)</a></li>
-<li><a href="dokument.html">HTML dokument (multimedija)</a></li>
-<li><a href="primjer.pdf">PDF dokument (primjer)</a></li>
+<li><a href="o_meni.html">O meni</a></li>
+<li><a href="vjezbe.html">Vježbe</a></li>
+<li><a href="video.html">Video</a></li>
 </ul>
 </nav>
-
-<!-- Paragraf o meni -->
-<p>
-Ovo je <b>moja prva web stranica</b>. <br/>
-Učim <i>HTML</i> i <u>uživam</u> u procesu. <br/>
-
-
-<!-- Neuređena lista: Glazba -->
-<h3>Glazba koju slušam</h3>
-<ul>
-<li>Rock</li>
-<li>Hip-hop</li>
-<li>Elektronska glazba</li>
-</ul>
-
-<!-- Uređena lista: Sportovi koje volim -->
-<h3>Sportovi koje volim</h3>
-<ol>
-<li>Boks</li>
-<li>Nogomet</li>
-<li>Košarka</li>
-</ol>
 
 </body>
 </html>
