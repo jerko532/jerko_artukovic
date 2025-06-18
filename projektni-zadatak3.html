@@ -5,7 +5,7 @@
 <title>Projektni Zadatak 3</title>
 <style>
 body {
-background-color: #d0f0c0; /* svjetlozelena */
+background-color: #d0f0c0; /* svjetlozelena pozadina */
 font-family: Arial, sans-serif;
 margin: 0;
 padding: 20px;
@@ -23,15 +23,38 @@ b {
 font-weight: bold;
 }
 
+.navigacija {
+margin-top: 40px;
+}
+
 .navigacija a {
-color: red;
+display: inline-block;
+background-color: red;
+color: white;
+padding: 10px 20px;
 text-decoration: none;
-margin-right: 20px;
+margin-right: 15px;
+border-radius: 5px;
 font-weight: bold;
 }
 
-.navigacija {
-margin-top: 40px;
+.navigacija a:hover {
+background-color: darkred;
+}
+
+.video-link {
+display: inline-block;
+background-color: red;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.video-link:hover {
+background-color: darkred;
 }
 </style>
 </head>
@@ -44,7 +67,7 @@ margin-top: 40px;
 <p>U procesu sam naučio kako spojiti <b>multimedijalne tehnike</b> s izradom weba, kako koristiti <b>CSS za oblikovanje sadržaja</b> te kako ugraditi <b>video u HTML dokument</b>. Također sam vježbao organizaciju datoteka i navigaciju između više stranica.</p>
 </div>
 
-<p><a href="video.html" style="color:red;"><b>Video reklama</b></a> predstavlja prvi dio ovog zadatka i sadrži video koji sam sam snimio i uredio. Video je izrađen u skladu sa zadanim tehničkim zahtjevima i tematski se veže uz sadržaj web stranice.</p>
+<a href="video.html" class="video-link">Video reklama (1. dio zadatka)</a>
 
 <div class="navigacija">
 <a href="index.html">Početna</a>
